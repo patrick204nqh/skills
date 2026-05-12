@@ -20,10 +20,20 @@ can keep many on hand without bloating context.
 
 ## The skills
 
-- **[eli5](./skills/eli5/SKILL.md)** — explain any complex topic in
-  plain language with one strong analogy. For when you want to *get*
-  it, not just see words about it. Triggers on "ELI5", "in simple
+A small family of *explanation* skills, each tuned to a different
+audience:
+
+- **[eli5](./skills/eli5/SKILL.md)** — for when you want to *get* it.
+  Plain language, one strong analogy. Triggers on "ELI5", "in simple
   terms", "plain English", "dumb it down".
+- **[exec-summary](./skills/exec-summary/SKILL.md)** — for when a busy
+  leader has 60 seconds. Leads with the decision, not the mechanism.
+  Triggers on "exec summary", "TL;DR for my boss", "for leadership",
+  "one-pager".
+- **[eli-engineer](./skills/eli-engineer/SKILL.md)** — for when a peer
+  engineer wants precision over accessibility. Names the data
+  structure, the invariant, the trade-offs. No analogies. Triggers on
+  "ELI-engineer", "technical explanation", "skip the analogy".
 
 *More coming, slowly.*
 
