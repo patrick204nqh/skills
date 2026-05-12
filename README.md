@@ -45,7 +45,7 @@ Install as a plugin to get all three skills at once and pick up updates
 automatically:
 
     /plugin marketplace add patrick204nqh/skills
-    /plugin install patrick204nqh-skills@skills
+    /plugin install patrick204nqh@skills
 
 ### Manual (any Agent Skills-compatible tool)
 
@@ -67,7 +67,7 @@ behavior. Specific guidance does.
 
 ## About
 
-Built by Patrick ([@patrick204nqh](https://github.com/patrick204nqh)).
+Built by [Patrick](https://github.com/patrick204nqh).
 Steal them, fork them, send a PR if you sharpen one.
 
 ## License

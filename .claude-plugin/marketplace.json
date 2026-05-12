@@ -1,0 +1,14 @@
+{
+  "name": "skills",
+  "owner": {
+    "name": "Patrick",
+    "url": "https://github.com/patrick204nqh"
+  },
+  "plugins": [
+    {
+      "name": "patrick204nqh",
+      "source": ".",
+      "description": "Agent skills that help humans actually understand what the agent is telling them. Includes eli5, exec-summary, and eli-engineer."
+    }
+  ]
+}
