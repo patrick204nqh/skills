@@ -39,6 +39,16 @@ audience:
 
 ## Install
 
+### Claude Code (recommended)
+
+Install as a plugin to get all three skills at once and pick up updates
+automatically:
+
+    /plugin marketplace add patrick204nqh/skills
+    /plugin install patrick204nqh-skills@skills
+
+### Manual (any Agent Skills-compatible tool)
+
 Copy the skill folder you want into one of these locations:
 
     ~/.claude/skills/             # Personal (Claude Code)
