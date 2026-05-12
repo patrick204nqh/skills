@@ -1,6 +1,8 @@
 {
   "name": "patrick204nqh-skills",
   "skills": [
-    "./skills/eli5"
+    "./skills/eli5",
+    "./skills/exec-summary",
+    "./skills/eli-engineer"
   ]
 }
