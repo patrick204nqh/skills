@@ -1,0 +1,55 @@
+# Skills
+
+You ask the agent a simple question — *how does this thing work?* —
+and what comes back is technically correct, three paragraphs long, and
+slides off your brain like water off a window. You read it twice. You
+still couldn't repeat it to a colleague.
+
+The agent isn't wrong. It's just not *explaining*.
+
+That gap — between knowing a topic and being able to say it like a
+human would — is what these skills are for. Small, opinionated
+instruction files that change how the agent talks: one analogy not
+three, short sentences, no "at its core…" filler. The agent already
+knows the material. The skill just gets it to land.
+
+Portable across Claude Code, Codex, Cursor, Gemini CLI, and any other
+[Agent Skills](https://agentskills.io)-compatible tool. Each skill is
+a folder with a `SKILL.md` file, loaded only when relevant — so you
+can keep many on hand without bloating context.
+
+## The skills
+
+- **[eli5](./skills/eli5/SKILL.md)** — explain any complex topic in
+  plain language with one strong analogy. For when you want to *get*
+  it, not just see words about it. Triggers on "ELI5", "in simple
+  terms", "plain English", "dumb it down".
+
+*More coming, slowly.*
+
+## Install
+
+Copy the skill folder you want into one of these locations:
+
+    ~/.claude/skills/             # Personal (Claude Code)
+    .claude/skills/               # Project-local, shared via git
+    ~/.agents/skills/             # Codex / generic Agent Skills
+
+Then just talk to your agent normally — skills trigger on intent, not
+slash commands (though most can be invoked explicitly too).
+
+## Philosophy
+
+The best explanation is the one you can repeat to a friend an hour
+later. These skills are opinionated rules — one analogy not three,
+short sentences, no filler — because vague guidance doesn't change
+behavior. Specific guidance does.
+
+## About
+
+Built by Patrick ([@patrick204nqh](https://github.com/patrick204nqh)).
+Steal them, fork them, send a PR if you sharpen one.
+
+## License
+
+MIT
