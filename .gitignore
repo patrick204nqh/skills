@@ -1,0 +1,8 @@
+.env
+.envrc
+
+.claude/settings.local.json
+
+# Planning docs — not tracked
+PLAN.md
+.plans/
