@@ -11,7 +11,7 @@
         "source": "url",
         "url": "https://github.com/patrick204nqh/skills.git"
       },
-      "description": "Agent skills that help humans actually understand what the agent is telling them. Includes eli5, exec-summary, and eli-engineer."
+      "description": "Agent skills that help humans actually understand what the agent is telling them. Audience modes (eli5, exec-summary, eli-engineer) and methodology modes (bluf, minto-pyramid, feynman)."
     }
   ]
 }

@@ -5,13 +5,14 @@ and what comes back is technically correct, three paragraphs long, and
 slides off your brain like water off a window. You read it twice. You
 still couldn't repeat it to a colleague.
 
-The agent isn't wrong. It's just not *explaining*.
+The agent isn't wrong. It's just not *communicating*.
 
 That gap — between knowing a topic and being able to say it like a
 human would — is what these skills are for. Small, opinionated
 instruction files that change how the agent talks: one analogy not
-three, short sentences, no "at its core…" filler. The agent already
-knows the material. The skill just gets it to land.
+three, the answer before the journey, short sentences, no "at its
+core…" filler. The agent already knows the material. The skill just
+gets it to land.
 
 Portable across Claude Code, Codex, Cursor, Gemini CLI, and any other
 [Agent Skills](https://agentskills.io)-compatible tool. Each skill is
@@ -20,8 +21,10 @@ can keep many on hand without bloating context.
 
 ## The skills
 
-A small family of *explanation* skills, each tuned to a different
-audience:
+Two families. Pick the one that matches what's wrong with the
+explanation you're getting.
+
+### Audience modes — *who is reading this?*
 
 - **[eli5](./skills/eli5/SKILL.md)** — for when you want to *get* it.
   Plain language, one strong analogy. Triggers on "ELI5", "in simple
@@ -35,13 +38,27 @@ audience:
   structure, the invariant, the trade-offs. No analogies. Triggers on
   "ELI-engineer", "technical explanation", "skip the analogy".
 
+### Methodology modes — *how should this be structured?*
+
+- **[bluf](./skills/bluf/SKILL.md)** — Bottom Line Up Front. The
+  answer in the first sentence, supporting detail after. Triggers on
+  "BLUF", "TL;DR", "lead with the answer", "get to the point".
+- **[minto-pyramid](./skills/minto-pyramid/SKILL.md)** — for
+  proposals, recommendations, and decision docs. Answer first, then
+  grouped reasons, then detail. Triggers on "structure this proposal",
+  "Minto", "pyramid principle", "make this argument tighter".
+- **[feynman](./skills/feynman/SKILL.md)** — for checking your own
+  understanding. Explain it plainly, then identify the part where you
+  got fuzzy. Triggers on "do I actually understand this", "Feynman",
+  "test my understanding", "what am I missing".
+
 *More coming, slowly.*
 
 ## Install
 
 ### Claude Code (recommended)
 
-Install as a plugin to get all three skills at once and pick up updates
+Install as a plugin to get every skill at once and pick up updates
 automatically:
 
     /plugin marketplace add patrick204nqh/skills
@@ -61,9 +78,14 @@ slash commands (though most can be invoked explicitly too).
 ## Philosophy
 
 The best explanation is the one you can repeat to a friend an hour
-later. These skills are opinionated rules — one analogy not three,
-short sentences, no filler — because vague guidance doesn't change
-behavior. Specific guidance does.
+later. The best summary is the one a leader can act on without
+scrolling. These skills are opinionated rules — one analogy not three,
+the answer before the journey, short sentences, no filler — because
+vague guidance doesn't change behaviour. Specific guidance does.
+
+Each skill stays in the same shape: a single instruction file that
+shapes *how the agent talks*, with no tools, no rendering, no
+dependencies. Add an audience or a method; never a medium.
 
 ## About
 
