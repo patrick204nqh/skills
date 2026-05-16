@@ -8,6 +8,7 @@
     "./skills/structure/minto-pyramid",
     "./skills/structure/feynman",
     "./skills/format/diagram-it",
-    "./skills/format/compare-table"
+    "./skills/format/compare-table",
+    "./skills/format/slide-deck"
   ]
 }

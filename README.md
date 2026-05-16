@@ -63,6 +63,11 @@ Three families. Pick the one that matches what your reader needs.
   differences. Four columns max, five-word cells, takeaway above,
   nuance below. Triggers on "compare", "what's the difference", "X vs Y",
   "should I use A or B", "side by side".
+- **[slide-deck](./skills/format/slide-deck/SKILL.md)** — for when you're
+  presenting to a room. One idea per slide, headline = takeaway (not
+  topic), speaker notes carry the story, no filler slides. Triggers on
+  "make slides", "deck", "presentation", "slidify this", "turn this
+  into slides".
 
 *More coming, slowly.*
 
