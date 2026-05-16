@@ -58,6 +58,11 @@ Three families. Pick the one that matches what your reader needs.
   kind (flow, sequence, hierarchy, state), keeps it under five nodes,
   emits mermaid. Triggers on "draw this", "diagram", "visualise",
   "show me the flow", "picture this".
+- **[compare-table](./skills/format/compare-table/SKILL.md)** — for when
+  the reader is choosing between 2–4 options and prose buries the
+  differences. Four columns max, five-word cells, takeaway above,
+  nuance below. Triggers on "compare", "what's the difference", "X vs Y",
+  "should I use A or B", "side by side".
 
 *More coming, slowly.*
 

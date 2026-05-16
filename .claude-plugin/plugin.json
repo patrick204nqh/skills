@@ -7,6 +7,7 @@
     "./skills/structure/bluf",
     "./skills/structure/minto-pyramid",
     "./skills/structure/feynman",
-    "./skills/format/diagram-it"
+    "./skills/format/diagram-it",
+    "./skills/format/compare-table"
   ]
 }
