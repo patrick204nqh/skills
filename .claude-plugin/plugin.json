@@ -6,6 +6,7 @@
     "./skills/audience/eli-engineer",
     "./skills/structure/bluf",
     "./skills/structure/minto-pyramid",
-    "./skills/structure/feynman"
+    "./skills/structure/feynman",
+    "./skills/format/diagram-it"
   ]
 }
