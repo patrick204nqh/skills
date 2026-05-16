@@ -1,8 +1,11 @@
 {
   "name": "patrick204nqh",
   "skills": [
-    "./skills/eli5",
-    "./skills/exec-summary",
-    "./skills/eli-engineer"
+    "./skills/audience/eli5",
+    "./skills/audience/exec-summary",
+    "./skills/audience/eli-engineer",
+    "./skills/structure/bluf",
+    "./skills/structure/minto-pyramid",
+    "./skills/structure/feynman"
   ]
 }
