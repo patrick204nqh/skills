@@ -21,36 +21,43 @@ can keep many on hand without bloating context.
 
 ## The skills
 
-Two families. Pick the one that matches what's wrong with the
-explanation you're getting.
+Three families. Pick the one that matches what your reader needs.
 
-### Audience modes — *who is reading this?*
+### Audience — *who is reading this?*
 
-- **[eli5](./skills/eli5/SKILL.md)** — for when you want to *get* it.
+- **[eli5](./skills/audience/eli5/SKILL.md)** — for when you want to *get* it.
   Plain language, one strong analogy. Triggers on "ELI5", "in simple
   terms", "plain English", "dumb it down".
-- **[exec-summary](./skills/exec-summary/SKILL.md)** — for when a busy
+- **[exec-summary](./skills/audience/exec-summary/SKILL.md)** — for when a busy
   leader has 60 seconds. Leads with the decision, not the mechanism.
   Triggers on "exec summary", "TL;DR for my boss", "for leadership",
   "one-pager".
-- **[eli-engineer](./skills/eli-engineer/SKILL.md)** — for when a peer
+- **[eli-engineer](./skills/audience/eli-engineer/SKILL.md)** — for when a peer
   engineer wants precision over accessibility. Names the data
   structure, the invariant, the trade-offs. No analogies. Triggers on
   "ELI-engineer", "technical explanation", "skip the analogy".
 
-### Methodology modes — *how should this be structured?*
+### Structure — *how is the argument shaped?*
 
-- **[bluf](./skills/bluf/SKILL.md)** — Bottom Line Up Front. The
+- **[bluf](./skills/structure/bluf/SKILL.md)** — Bottom Line Up Front. The
   answer in the first sentence, supporting detail after. Triggers on
   "BLUF", "TL;DR", "lead with the answer", "get to the point".
-- **[minto-pyramid](./skills/minto-pyramid/SKILL.md)** — for
+- **[minto-pyramid](./skills/structure/minto-pyramid/SKILL.md)** — for
   proposals, recommendations, and decision docs. Answer first, then
   grouped reasons, then detail. Triggers on "structure this proposal",
   "Minto", "pyramid principle", "make this argument tighter".
-- **[feynman](./skills/feynman/SKILL.md)** — for checking your own
+- **[feynman](./skills/structure/feynman/SKILL.md)** — for checking your own
   understanding. Explain it plainly, then identify the part where you
   got fuzzy. Triggers on "do I actually understand this", "Feynman",
   "test my understanding", "what am I missing".
+
+### Format — *what does the reader need to see?*
+
+- **[diagram-it](./skills/format/diagram-it/SKILL.md)** — for when a
+  relationship is the point and prose buries it. Picks the right diagram
+  kind (flow, sequence, hierarchy, state), keeps it under five nodes,
+  emits mermaid. Triggers on "draw this", "diagram", "visualise",
+  "show me the flow", "picture this".
 
 *More coming, slowly.*
 
@@ -77,15 +84,18 @@ slash commands (though most can be invoked explicitly too).
 
 ## Philosophy
 
-The best explanation is the one you can repeat to a friend an hour
-later. The best summary is the one a leader can act on without
-scrolling. These skills are opinionated rules — one analogy not three,
-the answer before the journey, short sentences, no filler — because
-vague guidance doesn't change behaviour. Specific guidance does.
+The best explanation is the one a colleague can repeat an hour later.
+The best summary is the one a leader can act on without scrolling. The
+best diagram is the one you don't have to squint at. These skills are
+opinionated rules — one analogy not three, the answer before the
+journey, five nodes not fifteen — because vague guidance doesn't
+change behaviour. Specific guidance does.
 
 Each skill stays in the same shape: a single instruction file that
-shapes *how the agent talks*, with no tools, no rendering, no
-dependencies. Add an audience or a method; never a medium.
+shapes *how the agent communicates* — in words, in structure, or in a
+picture. No tools, no rendering, no dependencies. The skill tells the
+agent what to produce; the host renders it. Match the medium to what
+the reader needs.
 
 ## About
 
