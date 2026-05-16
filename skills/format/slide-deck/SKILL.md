@@ -58,22 +58,18 @@ sentence each, you are not ready to write the middle.
    The headline is a sentence with a verb.
 3. **Body supports the headline.** Up to three bullets, or one
    chart, or one image. No body that doesn't reinforce the headline.
-4. **Speaker notes ≠ slide content.** Speaker notes are what you
-   *say*. Slide body is what they *see*. Never duplicate. If the
-   body says everything you'll say, the audience reads instead of
-   listening — and they read faster than you talk.
+4. **Speaker notes ≠ slide content.** Body shows the facts and
+   numbers; notes carry the reasoning. If both say the same thing,
+   the audience reads instead of listens — and they read faster than
+   you talk.
 5. **No filler slides.** No "Agenda", "Thank you", "Questions?",
    "About me". Every slide pays its way with a takeaway.
 6. **Cut by half.** Whatever your draft length is, halve it. The
    slides you delete are the ones no one missed.
-7. **Numbers belong on slides; reasoning belongs in notes.** A slide
-   that says "Up 8%" is a slide. A slide that explains *why* it's up
-   8% is prose pretending to be a slide.
 
 ## Format
 
-Emit each slide as a small block. The user (or their host) renders
-into the actual deck tool.
+Emit each slide as a small block.
 
 ```
 ---
@@ -86,10 +82,7 @@ into the actual deck tool.
 - [bullet — supports headline, ≤10 words]
 - [bullet — supports headline, ≤10 words]
 
-  *(or: a chart description, or a single image cue — not all three)*
-
-**Speaker notes:** [2–4 sentences of what the presenter says aloud.
-The story, the caveat, the joke, the segue to the next slide.]
+**Speaker notes:** [2–4 sentences — the story, the caveat, the segue.]
 ---
 ```
 
@@ -104,9 +97,7 @@ The story, the caveat, the joke, the segue to the next slide.]
 - Project Atlas has been running for 18 months
 - We've spent $1.2M so far
 - We expected to launch in Q2 but slipped to Q4
-- Engineering team is burnt out
 - Customer interviews suggest weak demand
-- We should consider whether to continue
 **Speaker notes:** I'll walk through the Atlas status.
 ```
 
@@ -146,16 +137,11 @@ intermediate form. It maps cleanly to any slide tool:
 - For an async audience that doesn't need slides at all, the
   headlines alone read as a numbered argument. Often enough.
 
-You are not the renderer. If the user wants polish — fonts, motion,
-brand template — that's a step outside this skill, not a feature of it.
-
 ## What you are not doing
 
 - You are not writing a document with slide breaks. A deck is a
   *talk*; a doc is a *read*.
-- You are not decorating. No icons, no stock photos, no animated
-  transitions in your output. Those are the user's call at render
-  time.
+- You are not decorating. Icons, photos, motion — render-time choices.
 - You are not writing the *whole talk* on the slides. The slides are
   what survives without you. *You* are what makes the deck land
   while you're in the room.
