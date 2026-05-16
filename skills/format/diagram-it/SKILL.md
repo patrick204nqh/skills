@@ -108,10 +108,17 @@ The round-trip to TokenSvc on every call is deliberate: it lets us
 revoke tokens immediately rather than waiting for them to expire. The
 cost is one extra hop per request, which we accept.
 
-## When the host can't render mermaid
+## Handing off to a renderer
 
-Emit ASCII art as a fallback, same rules: five boxes max, every arrow
-labelled, takeaway sentence above.
+You produce a text representation of the diagram. The artifact a
+human actually sees is the host's job — keep this clean separation.
+
+- If the host can render your chosen markup, paste-and-done.
+- If the host can't, fall back to ASCII art. Same rules — five
+  boxes max, every arrow labelled, takeaway sentence above.
+- If the user needs a static image (to attach to a doc or slide),
+  hand the markup to whatever renderer the host or user has and let
+  that step happen outside the skill.
 
 ```
 [Client] --POST /login--> [Auth] --mint--> [TokenSvc]
@@ -119,6 +126,10 @@ labelled, takeaway sentence above.
                             v                  |
                          [Client] --GET--> [Gateway]
 ```
+
+You are not the renderer. If the user wants polish — styling,
+colours, brand fit — that is a separate step, not a feature of this
+skill.
 
 ## What you are not doing
 

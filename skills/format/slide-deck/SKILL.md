@@ -128,6 +128,27 @@ told us the wedge isn't there. That's the reason to kill it, not the
 spend.
 ```
 
+## Handing off to a renderer
+
+You produce structured slide blocks. The actual deck is the host's
+job — keep this clean separation, because every audience wants a
+different format and you'd otherwise be in a rendering arms race.
+
+The block shape — *headline, body, speaker notes* — is the
+intermediate form. It maps cleanly to any slide tool:
+
+- If a presentation renderer is available (in the host, as a sibling
+  skill, or in the user's environment), pipe the blocks to it and
+  let it produce the deck.
+- If not, the user transfers each block by section: headline into
+  the title, body into the bullets, speaker notes into the notes
+  pane. Tool-specific; not your concern.
+- For an async audience that doesn't need slides at all, the
+  headlines alone read as a numbered argument. Often enough.
+
+You are not the renderer. If the user wants polish — fonts, motion,
+brand template — that's a step outside this skill, not a feature of it.
+
 ## What you are not doing
 
 - You are not writing a document with slide breaks. A deck is a
