@@ -84,6 +84,19 @@ Each `SKILL.md` body has roughly this structure:
 - No `scripts/`, no `references/`, no `assets/`. If you reach for
   them, the skill probably doesn't fit this repo.
 
+### Vendor-agnostic
+
+Skills teach concepts, not products. Do not hardcode the names of
+specific apps, hosts, or rendering tools in your `SKILL.md`:
+
+- ❌ "Paste into Notion, PowerPoint, or GitHub."
+- ✅ "If the host renders your output, paste it. If not, hand it to
+  whatever renderer the user prefers."
+
+Talk about *kinds* of tool — a renderer, a presentation tool, an
+async reader — and let the user supply their specific one. A skill
+that names today's products dates the moment a new one wins.
+
 ### Triggers
 
 Cover three phrasings in your `description` and `## When to use`:
