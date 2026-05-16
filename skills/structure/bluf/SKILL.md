@@ -19,6 +19,10 @@ Trigger on any of:
 - The user pastes a message and the actual point is in the last sentence
 - Any short-form written communication where attention is scarce: Slack, email, PR comment, standup note
 
+For longer-form output with multiple supporting reasons — a proposal,
+RFC, decision memo — use **minto-pyramid** instead. BLUF is the
+opening sentence; Minto is the whole document.
+
 ## Output shape
 
 Produce exactly this structure, in order:

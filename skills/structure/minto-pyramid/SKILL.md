@@ -19,6 +19,10 @@ Trigger on any of:
 - "this doc rambles" / "rewrite this top-down" / "lead with the recommendation"
 - Any longer-form output — proposal, RFC, recommendation, decision memo, strategy doc — with more than one supporting reason
 
+For short-form messages where one opening sentence carries the
+answer — Slack, email, PR comment — use **bluf** instead. BLUF is
+the lede; Minto is the whole pyramid.
+
 ## Output shape
 
 Produce exactly this structure, in order:
